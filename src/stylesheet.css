@@ -2,11 +2,16 @@
  * @author Jannchie
  * @email jannchie@gmail.com
  * @create date 2018-05-03 08:44:46
- * @modify date 2018-07-19 01:24:39
- * @desc [description]
+ * @modify date 2019-04-15 15:43:32
 */
 body {
     margin: 0px;
+}
+
+input {
+    position: absolute;
+    top: 50%;
+    left: 45%;
 }
 
 .domain {
@@ -20,158 +25,161 @@ body {
 .tick text {
     fill: #8E8883;
     font-size: 12pt;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 .label {
-    fill: rgb(92, 92, 92);
+    fill: #5C5C5C;
     font-size: 15pt;
-    font-family: "Microsoft YaHei", "宋体";
+    font-family: "Fira Code", "Source Han Sans CN";
     font-weight: bold
 }
 
 .dateLabel {
-    
-    fill: rgb(92, 92, 92);
-    display:table-cell;
-    font-size: 90pt;
+
+    fill: #5C5C5C;
+    display: table-cell;
+    font-size: 60pt;
     font-weight: bold;
-    font-family: 'Segoe UI', 'console', Calibri, sans-serif;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
+
 .dateLabelRed {
-    
-    fill: rgb(167, 46, 46);
-    display:table-cell;
+
+    fill: #A72E2E;
+    display: table-cell;
     font-size: 90pt;
     font-weight: bold;
-    font-family: 'Segoe UI', 'console', Calibri, sans-serif;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 
 .days {
-    fill: rgb(92, 92, 92);
+    fill: #5C5C5C;
     font-weight: bold;
     font-size: 55pt;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 .topLabel {
-    fill: rgb(92, 92, 92);
+    fill: #5C5C5C;
     font-weight: bold;
     font-size: 40pt;
-    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 .top {
-    fill: rgb(92, 92, 92);
+    fill: #5C5C5C;
     font-weight: bold;
     font-size: 62pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 .value {
-    fill: rgb(138, 46, 46);
+    fill: #8A2E2E;
     font-size: 20pt;
     font-weight: 400;
-    font-family: "Trebuchet MS";
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 .barInfo {
-    fill: rgb(255, 255, 255);
-    font-size: 22pt;
+    fill: #FFFFFF;
     font-weight: 800;
-    font-family: sans-serif;
+    font-size: 24pt;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 .axis-label {
     fill: #635F5D;
     font-size: 32pt;
-    font-family: sans-serif;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 .days {
-    fill: rgb(92, 92, 92);
+    fill: r#5C5C5C;
     font-weight: bold;
     font-size: 40pt;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 .dayslabel {
-    fill: rgb(92, 92, 92);
+    fill: #5C5C5C;
     font-weight: bold;
     font-size: 25pt;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
 .growth {
-    fill: rgb(92, 92, 92);
+    fill: #5C5C5C;
     font-weight: bold;
     font-size: 40pt;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Fira Code", "Source Han Sans CN"
 }
 
+/* MIKU色 */
 .L {
-    fill: #004e97c9
+    fill: #39C5BB;
 }
 
+/* 龙牙绿 */
 .M {
-    fill: #236aacc9
+    fill: #006666
 }
 
 .L {
-    fill: #004e97c9
+    fill: #66CCFF
 }
 
 .N {
-    fill: #009783c9
+    fill: #EB0000
 }
 
 .O {
-    fill: #009714c9
+    fill: #009714
 }
 
 .P {
-    fill: #b11111c9
+    fill: #B11111
 }
 
 .Q {
-    fill: #972b00c9
+    fill: #E24000
 }
 
 .R {
-    fill: #970065c9
+    fill: #8605D1
 }
 
 .S {
-    fill: #008597c9
+    fill: #00A5BB
 }
 
 .T {
-    fill: #8b1f5ec9
+    fill: #C21178
 }
 
 .U {
-    fill: #8b1f5ec9
+    fill: #00A048
 }
 
 .W {
-    fill: #8b1f5ec9
+    fill: #FFC012
 }
 
 .V {
-    fill: #559204c9
+    fill: #F39303
 }
 
 .X {
-    fill: #5a1f8bc9
+    fill: #933DDA
 }
 
 .Y {
-    fill: #c0ad00c9
+    fill: #EE5677
 }
 
 .Z {
-    fill: #88480cc9
+    fill: #C0620B
 }
 
 .H {
@@ -183,11 +191,11 @@ body {
 }
 
 .K {
-    fill: #9c361f
+    fill: #0775BE
 }
 
 .J {
-    fill: rgb(180, 157, 51)
+    fill: #B49D33
 }
 
 .I {
@@ -195,11 +203,11 @@ body {
 }
 
 .F {
-    fill: #227D51
+    fill: #DD3287
 }
 
 .E {
-    fill: #00896C
+    fill: #00AF89
 }
 
 .D {
@@ -211,10 +219,9 @@ body {
 }
 
 .B {
-    fill: #3C2F41
+    fill: #0A83E6
 }
 
 .A {
-    fill: #876633
+    fill: #CF9237
 }
-
